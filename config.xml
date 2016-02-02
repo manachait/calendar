@@ -14,5 +14,6 @@
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
     <preference name="android-minSdkVersion" value="7" />
-	<gap:plugin name="nl.x-services.plugins.calendar" />
+	<plugin name="cordova-plugin-calendar" />
+	<preference name="android-build-tool" value="gradle" />
 </widget>
